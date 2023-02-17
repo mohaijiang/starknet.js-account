@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "node deploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "starknet": "^4.13.0"
+    "starknet": "^4.21.0"
   },
-   "type": "module"
+  "type": "module"
 }
